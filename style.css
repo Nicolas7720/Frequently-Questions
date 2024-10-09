@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --blue: #4E80EE;
+    --text: #030616;
+    --white:  #FFFFFF;
+    --background: #D2D5DA;
+    --background2: #F8FAFC;
+}
+body{
+    max-width: 100vw;
+    min-width: 640px;
+    width: 100%;
+    height: 100vh;
+    color: var(--text);
+}
+h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+span{
+    color: var(--blue);
+}
+.title{
+    background-color: var(--background2);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.title h1{
+    margin-bottom: 15px;
+}
+
+.midd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--background);
+    line-height: 55px;
+}
+.midd .container{
+    padding: 50px 0px 40px 0px;
+    border-bottom: 1px solid black;
+    margin-left: 80px;
+}
+.midd .container ol li{
+    margin-left: 20px;
+}
+.midd .container ol li{
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+
+.midd .container{
+    padding: 50px 0px 40px 0px;
+    border-bottom: 1px solid black;
+    margin-left: 80px;
+    width: 640px;
+}
+.midd .container ul li{
+    margin-left: 20px;
+}
+.midd .container ul li{
+    margin-left: 20px;
+    line-height: 30px;
+}
