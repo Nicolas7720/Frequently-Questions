@@ -32,8 +32,10 @@ p{
     font-weight: 400;
     font-size: 16px;
 }
-span{
+a{
     color: var(--blue);
+    cursor: pointer;
+    text-decoration: none;
 }
 .title{
     background-color: var(--background2);
